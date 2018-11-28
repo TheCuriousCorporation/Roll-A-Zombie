@@ -1,0 +1,1482 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -530159753, guid: 68c7e4565cde54155bb78d8e935f1dd4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cacheType: 3
+  lastUpdatedAtString: 2018-11-28T14:40:12.841-08:00
+  initializedAtString: 2018-11-28T14:35:11.651-08:00
+  log:
+  - commitID: 8ef1321a4b480fe4de07242546ca5a7a747dd4b6
+    mergeA: 
+    mergeB: 
+    authorName: cponeill
+    authorEmail: caseyoneill78@hotmail.com
+    commitEmail: caseyoneill78@hotmail.com
+    commitName: cponeill
+    summary: Initial Code Push
+    description: 'Initial Code Push
+
+
+      Moving all assets and code to Github.'
+    timeString: 2018-11-28T14:39:27.000-08:00
+    commitTimeString: 2018-11-28T14:39:27.000-08:00
+    changes:
+    - path: Assets/Floor.meta
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/Floor.meta
+      projectPath: Assets/Floor.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Floor/Wood texture floor_01.mat
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/Floor/Wood texture
+        floor_01.mat
+      projectPath: Assets/Floor/Wood texture floor_01.mat
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Floor/Wood texture floor_01.mat.meta
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/Floor/Wood texture
+        floor_01.mat.meta
+      projectPath: Assets/Floor/Wood texture floor_01.mat.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Floor/Wood texture floor_01.png
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/Floor/Wood texture
+        floor_01.png
+      projectPath: Assets/Floor/Wood texture floor_01.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Floor/Wood texture floor_01.png.meta
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/Floor/Wood texture
+        floor_01.png.meta
+      projectPath: Assets/Floor/Wood texture floor_01.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Game.unity
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/Game.unity
+      projectPath: Assets/Game.unity
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Game.unity.meta
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/Game.unity.meta
+      projectPath: Assets/Game.unity.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/GameManager.cs
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/GameManager.cs
+      projectPath: Assets/GameManager.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/GameManager.cs.meta
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/GameManager.cs.meta
+      projectPath: Assets/GameManager.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Materials.meta
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/Materials.meta
+      projectPath: Assets/Materials.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Materials/Blue.mat
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/Materials/Blue.mat
+      projectPath: Assets/Materials/Blue.mat
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Materials/Blue.mat.meta
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/Materials/Blue.mat.meta
+      projectPath: Assets/Materials/Blue.mat.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Materials/Default.mat
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/Materials/Default.mat
+      projectPath: Assets/Materials/Default.mat
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Materials/Default.mat.meta
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/Materials/Default.mat.meta
+      projectPath: Assets/Materials/Default.mat.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Materials/Green.mat
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/Materials/Green.mat
+      projectPath: Assets/Materials/Green.mat
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Materials/Green.mat.meta
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/Materials/Green.mat.meta
+      projectPath: Assets/Materials/Green.mat.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Materials/Red.mat
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/Materials/Red.mat
+      projectPath: Assets/Materials/Red.mat
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Materials/Red.mat.meta
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/Materials/Red.mat.meta
+      projectPath: Assets/Materials/Red.mat.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Materials/Yellow.mat
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/Materials/Yellow.mat
+      projectPath: Assets/Materials/Yellow.mat
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Materials/Yellow.mat.meta
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/Materials/Yellow.mat.meta
+      projectPath: Assets/Materials/Yellow.mat.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins.meta
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/Plugins.meta
+      projectPath: Assets/Plugins.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub.meta
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/Plugins/GitHub.meta
+      projectPath: Assets/Plugins/GitHub.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor.meta
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/Plugins/GitHub/Editor.meta
+      projectPath: Assets/Plugins/GitHub/Editor.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/AsyncBridge.Net35.dll
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/Plugins/GitHub/Editor/AsyncBridge.Net35.dll
+      projectPath: Assets/Plugins/GitHub/Editor/AsyncBridge.Net35.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/AsyncBridge.Net35.dll.meta
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/Plugins/GitHub/Editor/AsyncBridge.Net35.dll.meta
+      projectPath: Assets/Plugins/GitHub/Editor/AsyncBridge.Net35.dll.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/ExtensionLoader.cs
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/Plugins/GitHub/Editor/ExtensionLoader.cs
+      projectPath: Assets/Plugins/GitHub/Editor/ExtensionLoader.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/ExtensionLoader.cs.meta
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/Plugins/GitHub/Editor/ExtensionLoader.cs.meta
+      projectPath: Assets/Plugins/GitHub/Editor/ExtensionLoader.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll
+      projectPath: Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll.mdb
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll.mdb
+      projectPath: Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll.mdb
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll.mdb.meta
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll.mdb.meta
+      projectPath: Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll.mdb.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll.meta
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll.meta
+      projectPath: Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/GitHub.Api.45.pdb.meta
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/Plugins/GitHub/Editor/GitHub.Api.45.pdb.meta
+      projectPath: Assets/Plugins/GitHub/Editor/GitHub.Api.45.pdb.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/GitHub.Api.dll
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/Plugins/GitHub/Editor/GitHub.Api.dll
+      projectPath: Assets/Plugins/GitHub/Editor/GitHub.Api.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/GitHub.Api.dll.mdb
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/Plugins/GitHub/Editor/GitHub.Api.dll.mdb
+      projectPath: Assets/Plugins/GitHub/Editor/GitHub.Api.dll.mdb
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/GitHub.Api.dll.mdb.meta
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/Plugins/GitHub/Editor/GitHub.Api.dll.mdb.meta
+      projectPath: Assets/Plugins/GitHub/Editor/GitHub.Api.dll.mdb.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/GitHub.Api.dll.meta
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/Plugins/GitHub/Editor/GitHub.Api.dll.meta
+      projectPath: Assets/Plugins/GitHub/Editor/GitHub.Api.dll.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/GitHub.Api.pdb.meta
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/Plugins/GitHub/Editor/GitHub.Api.pdb.meta
+      projectPath: Assets/Plugins/GitHub/Editor/GitHub.Api.pdb.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/GitHub.Logging.dll
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/Plugins/GitHub/Editor/GitHub.Logging.dll
+      projectPath: Assets/Plugins/GitHub/Editor/GitHub.Logging.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/GitHub.Logging.dll.mdb
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/Plugins/GitHub/Editor/GitHub.Logging.dll.mdb
+      projectPath: Assets/Plugins/GitHub/Editor/GitHub.Logging.dll.mdb
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/GitHub.Logging.dll.mdb.meta
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/Plugins/GitHub/Editor/GitHub.Logging.dll.mdb.meta
+      projectPath: Assets/Plugins/GitHub/Editor/GitHub.Logging.dll.mdb.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/GitHub.Logging.dll.meta
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/Plugins/GitHub/Editor/GitHub.Logging.dll.meta
+      projectPath: Assets/Plugins/GitHub/Editor/GitHub.Logging.dll.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/GitHub.Logging.pdb.meta
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/Plugins/GitHub/Editor/GitHub.Logging.pdb.meta
+      projectPath: Assets/Plugins/GitHub/Editor/GitHub.Logging.pdb.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll
+      projectPath: Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll.mdb
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll.mdb
+      projectPath: Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll.mdb
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll.mdb.meta
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll.mdb.meta
+      projectPath: Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll.mdb.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll.meta
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll.meta
+      projectPath: Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/GitHub.Unity.45.pdb.meta
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/Plugins/GitHub/Editor/GitHub.Unity.45.pdb.meta
+      projectPath: Assets/Plugins/GitHub/Editor/GitHub.Unity.45.pdb.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/GitHub.Unity.dll
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/Plugins/GitHub/Editor/GitHub.Unity.dll
+      projectPath: Assets/Plugins/GitHub/Editor/GitHub.Unity.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/GitHub.Unity.dll.mdb
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/Plugins/GitHub/Editor/GitHub.Unity.dll.mdb
+      projectPath: Assets/Plugins/GitHub/Editor/GitHub.Unity.dll.mdb
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/GitHub.Unity.dll.mdb.meta
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/Plugins/GitHub/Editor/GitHub.Unity.dll.mdb.meta
+      projectPath: Assets/Plugins/GitHub/Editor/GitHub.Unity.dll.mdb.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/GitHub.Unity.dll.meta
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/Plugins/GitHub/Editor/GitHub.Unity.dll.meta
+      projectPath: Assets/Plugins/GitHub/Editor/GitHub.Unity.dll.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/GitHub.Unity.pdb.meta
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/Plugins/GitHub/Editor/GitHub.Unity.pdb.meta
+      projectPath: Assets/Plugins/GitHub/Editor/GitHub.Unity.pdb.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/Mono.Posix.dll
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/Plugins/GitHub/Editor/Mono.Posix.dll
+      projectPath: Assets/Plugins/GitHub/Editor/Mono.Posix.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/Mono.Posix.dll.meta
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/Plugins/GitHub/Editor/Mono.Posix.dll.meta
+      projectPath: Assets/Plugins/GitHub/Editor/Mono.Posix.dll.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/QuickGuide.pdf
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/Plugins/GitHub/Editor/QuickGuide.pdf
+      projectPath: Assets/Plugins/GitHub/Editor/QuickGuide.pdf
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/QuickGuide.pdf.meta
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/Plugins/GitHub/Editor/QuickGuide.pdf.meta
+      projectPath: Assets/Plugins/GitHub/Editor/QuickGuide.pdf.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/ReadOnlyCollectionsInterfaces.dll
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/Plugins/GitHub/Editor/ReadOnlyCollectionsInterfaces.dll
+      projectPath: Assets/Plugins/GitHub/Editor/ReadOnlyCollectionsInterfaces.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/ReadOnlyCollectionsInterfaces.dll.meta
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/Plugins/GitHub/Editor/ReadOnlyCollectionsInterfaces.dll.meta
+      projectPath: Assets/Plugins/GitHub/Editor/ReadOnlyCollectionsInterfaces.dll.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/System.Threading.dll
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/Plugins/GitHub/Editor/System.Threading.dll
+      projectPath: Assets/Plugins/GitHub/Editor/System.Threading.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/System.Threading.dll.meta
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/Plugins/GitHub/Editor/System.Threading.dll.meta
+      projectPath: Assets/Plugins/GitHub/Editor/System.Threading.dll.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/big-logo@2x.png
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/Plugins/GitHub/Editor/big-logo@2x.png
+      projectPath: Assets/Plugins/GitHub/Editor/big-logo@2x.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/big-logo@2x.png.meta
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/Plugins/GitHub/Editor/big-logo@2x.png.meta
+      projectPath: Assets/Plugins/GitHub/Editor/big-logo@2x.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/credits.txt
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/Plugins/GitHub/Editor/credits.txt
+      projectPath: Assets/Plugins/GitHub/Editor/credits.txt
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/credits.txt.meta
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/Plugins/GitHub/Editor/credits.txt.meta
+      projectPath: Assets/Plugins/GitHub/Editor/credits.txt.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/eula.txt
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/Plugins/GitHub/Editor/eula.txt
+      projectPath: Assets/Plugins/GitHub/Editor/eula.txt
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/eula.txt.meta
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/Plugins/GitHub/Editor/eula.txt.meta
+      projectPath: Assets/Plugins/GitHub/Editor/eula.txt.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/libsfw.bundle
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/Plugins/GitHub/Editor/libsfw.bundle
+      projectPath: Assets/Plugins/GitHub/Editor/libsfw.bundle
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/libsfw.bundle.meta
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/Plugins/GitHub/Editor/libsfw.bundle.meta
+      projectPath: Assets/Plugins/GitHub/Editor/libsfw.bundle.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/libsfw.so
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/Plugins/GitHub/Editor/libsfw.so
+      projectPath: Assets/Plugins/GitHub/Editor/libsfw.so
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/libsfw.so.meta
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/Plugins/GitHub/Editor/libsfw.so.meta
+      projectPath: Assets/Plugins/GitHub/Editor/libsfw.so.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/sfw.net.dll
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/Plugins/GitHub/Editor/sfw.net.dll
+      projectPath: Assets/Plugins/GitHub/Editor/sfw.net.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/sfw.net.dll.meta
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/Plugins/GitHub/Editor/sfw.net.dll.meta
+      projectPath: Assets/Plugins/GitHub/Editor/sfw.net.dll.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/x64.meta
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/Plugins/GitHub/Editor/x64.meta
+      projectPath: Assets/Plugins/GitHub/Editor/x64.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/x64/pthreadVC2.dll
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/Plugins/GitHub/Editor/x64/pthreadVC2.dll
+      projectPath: Assets/Plugins/GitHub/Editor/x64/pthreadVC2.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/x64/pthreadVC2.dll.meta
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/Plugins/GitHub/Editor/x64/pthreadVC2.dll.meta
+      projectPath: Assets/Plugins/GitHub/Editor/x64/pthreadVC2.dll.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/x64/sfw_x64.dll
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/Plugins/GitHub/Editor/x64/sfw_x64.dll
+      projectPath: Assets/Plugins/GitHub/Editor/x64/sfw_x64.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/x64/sfw_x64.dll.meta
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/Plugins/GitHub/Editor/x64/sfw_x64.dll.meta
+      projectPath: Assets/Plugins/GitHub/Editor/x64/sfw_x64.dll.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/x86.meta
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/Plugins/GitHub/Editor/x86.meta
+      projectPath: Assets/Plugins/GitHub/Editor/x86.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/x86/pthreadVC2.dll
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/Plugins/GitHub/Editor/x86/pthreadVC2.dll
+      projectPath: Assets/Plugins/GitHub/Editor/x86/pthreadVC2.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/x86/pthreadVC2.dll.meta
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/Plugins/GitHub/Editor/x86/pthreadVC2.dll.meta
+      projectPath: Assets/Plugins/GitHub/Editor/x86/pthreadVC2.dll.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/x86/sfw_x86.dll
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/Plugins/GitHub/Editor/x86/sfw_x86.dll
+      projectPath: Assets/Plugins/GitHub/Editor/x86/sfw_x86.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/GitHub/Editor/x86/sfw_x86.dll.meta
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/Plugins/GitHub/Editor/x86/sfw_x86.dll.meta
+      projectPath: Assets/Plugins/GitHub/Editor/x86/sfw_x86.dll.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Prefabs.meta
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/Prefabs.meta
+      projectPath: Assets/Prefabs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Prefabs/Floor.prefab
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/Prefabs/Floor.prefab
+      projectPath: Assets/Prefabs/Floor.prefab
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Prefabs/Floor.prefab.meta
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/Prefabs/Floor.prefab.meta
+      projectPath: Assets/Prefabs/Floor.prefab.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Prefabs/bluezombie.prefab
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/Prefabs/bluezombie.prefab
+      projectPath: Assets/Prefabs/bluezombie.prefab
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Prefabs/bluezombie.prefab.meta
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/Prefabs/bluezombie.prefab.meta
+      projectPath: Assets/Prefabs/bluezombie.prefab.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Prefabs/greenzombie.prefab
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/Prefabs/greenzombie.prefab
+      projectPath: Assets/Prefabs/greenzombie.prefab
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Prefabs/greenzombie.prefab.meta
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/Prefabs/greenzombie.prefab.meta
+      projectPath: Assets/Prefabs/greenzombie.prefab.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Prefabs/redzombie.prefab
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/Prefabs/redzombie.prefab
+      projectPath: Assets/Prefabs/redzombie.prefab
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Prefabs/redzombie.prefab.meta
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/Prefabs/redzombie.prefab.meta
+      projectPath: Assets/Prefabs/redzombie.prefab.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Prefabs/yellowzombie.prefab
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/Prefabs/yellowzombie.prefab
+      projectPath: Assets/Prefabs/yellowzombie.prefab
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Prefabs/yellowzombie.prefab.meta
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/Prefabs/yellowzombie.prefab.meta
+      projectPath: Assets/Prefabs/yellowzombie.prefab.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Scenes.meta
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/Scenes.meta
+      projectPath: Assets/Scenes.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Scenes/SampleScene.unity
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/Scenes/SampleScene.unity
+      projectPath: Assets/Scenes/SampleScene.unity
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Scenes/SampleScene.unity.meta
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/Scenes/SampleScene.unity.meta
+      projectPath: Assets/Scenes/SampleScene.unity.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Skybox.meta
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/Skybox.meta
+      projectPath: Assets/Skybox.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Skybox/CloudyCrown_Sunset.mat
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/Skybox/CloudyCrown_Sunset.mat
+      projectPath: Assets/Skybox/CloudyCrown_Sunset.mat
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Skybox/CloudyCrown_Sunset.mat.meta
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/Skybox/CloudyCrown_Sunset.mat.meta
+      projectPath: Assets/Skybox/CloudyCrown_Sunset.mat.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Skybox/Textures.meta
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/Skybox/Textures.meta
+      projectPath: Assets/Skybox/Textures.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Skybox/Textures/CloudyCrown_Sunset_Back.png
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/Skybox/Textures/CloudyCrown_Sunset_Back.png
+      projectPath: Assets/Skybox/Textures/CloudyCrown_Sunset_Back.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Skybox/Textures/CloudyCrown_Sunset_Back.png.meta
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/Skybox/Textures/CloudyCrown_Sunset_Back.png.meta
+      projectPath: Assets/Skybox/Textures/CloudyCrown_Sunset_Back.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Skybox/Textures/CloudyCrown_Sunset_Down.png
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/Skybox/Textures/CloudyCrown_Sunset_Down.png
+      projectPath: Assets/Skybox/Textures/CloudyCrown_Sunset_Down.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Skybox/Textures/CloudyCrown_Sunset_Down.png.meta
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/Skybox/Textures/CloudyCrown_Sunset_Down.png.meta
+      projectPath: Assets/Skybox/Textures/CloudyCrown_Sunset_Down.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Skybox/Textures/CloudyCrown_Sunset_Front.png
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/Skybox/Textures/CloudyCrown_Sunset_Front.png
+      projectPath: Assets/Skybox/Textures/CloudyCrown_Sunset_Front.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Skybox/Textures/CloudyCrown_Sunset_Front.png.meta
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/Skybox/Textures/CloudyCrown_Sunset_Front.png.meta
+      projectPath: Assets/Skybox/Textures/CloudyCrown_Sunset_Front.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Skybox/Textures/CloudyCrown_Sunset_Left.png
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/Skybox/Textures/CloudyCrown_Sunset_Left.png
+      projectPath: Assets/Skybox/Textures/CloudyCrown_Sunset_Left.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Skybox/Textures/CloudyCrown_Sunset_Left.png.meta
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/Skybox/Textures/CloudyCrown_Sunset_Left.png.meta
+      projectPath: Assets/Skybox/Textures/CloudyCrown_Sunset_Left.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Skybox/Textures/CloudyCrown_Sunset_Right.png
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/Skybox/Textures/CloudyCrown_Sunset_Right.png
+      projectPath: Assets/Skybox/Textures/CloudyCrown_Sunset_Right.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Skybox/Textures/CloudyCrown_Sunset_Right.png.meta
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/Skybox/Textures/CloudyCrown_Sunset_Right.png.meta
+      projectPath: Assets/Skybox/Textures/CloudyCrown_Sunset_Right.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Skybox/Textures/CloudyCrown_Sunset_Up.png
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/Skybox/Textures/CloudyCrown_Sunset_Up.png
+      projectPath: Assets/Skybox/Textures/CloudyCrown_Sunset_Up.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Skybox/Textures/CloudyCrown_Sunset_Up.png.meta
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/Skybox/Textures/CloudyCrown_Sunset_Up.png.meta
+      projectPath: Assets/Skybox/Textures/CloudyCrown_Sunset_Up.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/beep.wav
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/beep.wav
+      projectPath: Assets/beep.wav
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/beep.wav.meta
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/beep.wav.meta
+      projectPath: Assets/beep.wav.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/game_music.mp3
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/game_music.mp3
+      projectPath: Assets/game_music.mp3
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/game_music.mp3.meta
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/game_music.mp3.meta
+      projectPath: Assets/game_music.mp3.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/zombies.meta
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/zombies.meta
+      projectPath: Assets/zombies.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/zombies/Zombie.controller
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/zombies/Zombie.controller
+      projectPath: Assets/zombies/Zombie.controller
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/zombies/Zombie.controller.meta
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/zombies/Zombie.controller.meta
+      projectPath: Assets/zombies/Zombie.controller.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/zombies/animations.meta
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/zombies/animations.meta
+      projectPath: Assets/zombies/animations.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/zombies/animations/Materials.meta
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/zombies/animations/Materials.meta
+      projectPath: Assets/zombies/animations/Materials.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/zombies/animations/Materials/micro_zombie_brian_col_green 1.mat
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/zombies/animations/Materials/micro_zombie_brian_col_green
+        1.mat
+      projectPath: Assets/zombies/animations/Materials/micro_zombie_brian_col_green
+        1.mat
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/zombies/animations/Materials/micro_zombie_brian_col_green 1.mat.meta
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/zombies/animations/Materials/micro_zombie_brian_col_green
+        1.mat.meta
+      projectPath: Assets/zombies/animations/Materials/micro_zombie_brian_col_green
+        1.mat.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/zombies/animations/Materials/micro_zombie_brian_col_green 2.mat
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/zombies/animations/Materials/micro_zombie_brian_col_green
+        2.mat
+      projectPath: Assets/zombies/animations/Materials/micro_zombie_brian_col_green
+        2.mat
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/zombies/animations/Materials/micro_zombie_brian_col_green 2.mat.meta
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/zombies/animations/Materials/micro_zombie_brian_col_green
+        2.mat.meta
+      projectPath: Assets/zombies/animations/Materials/micro_zombie_brian_col_green
+        2.mat.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/zombies/animations/Materials/micro_zombie_brian_col_green 3.mat
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/zombies/animations/Materials/micro_zombie_brian_col_green
+        3.mat
+      projectPath: Assets/zombies/animations/Materials/micro_zombie_brian_col_green
+        3.mat
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/zombies/animations/Materials/micro_zombie_brian_col_green 3.mat.meta
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/zombies/animations/Materials/micro_zombie_brian_col_green
+        3.mat.meta
+      projectPath: Assets/zombies/animations/Materials/micro_zombie_brian_col_green
+        3.mat.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/zombies/animations/Materials/micro_zombie_brian_col_green.mat
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/zombies/animations/Materials/micro_zombie_brian_col_green.mat
+      projectPath: Assets/zombies/animations/Materials/micro_zombie_brian_col_green.mat
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/zombies/animations/Materials/micro_zombie_brian_col_green.mat.meta
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/zombies/animations/Materials/micro_zombie_brian_col_green.mat.meta
+      projectPath: Assets/zombies/animations/Materials/micro_zombie_brian_col_green.mat.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/zombies/animations/all_in_one.fbx
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/zombies/animations/all_in_one.fbx
+      projectPath: Assets/zombies/animations/all_in_one.fbx
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/zombies/animations/all_in_one.fbx.meta
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/zombies/animations/all_in_one.fbx.meta
+      projectPath: Assets/zombies/animations/all_in_one.fbx.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/zombies/animations/zombie_bite.fbx
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/zombies/animations/zombie_bite.fbx
+      projectPath: Assets/zombies/animations/zombie_bite.fbx
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/zombies/animations/zombie_bite.fbx.meta
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/zombies/animations/zombie_bite.fbx.meta
+      projectPath: Assets/zombies/animations/zombie_bite.fbx.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/zombies/animations/zombie_bite_repeatedly.fbx
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/zombies/animations/zombie_bite_repeatedly.fbx
+      projectPath: Assets/zombies/animations/zombie_bite_repeatedly.fbx
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/zombies/animations/zombie_bite_repeatedly.fbx.meta
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/zombies/animations/zombie_bite_repeatedly.fbx.meta
+      projectPath: Assets/zombies/animations/zombie_bite_repeatedly.fbx.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/zombies/animations/zombie_die.fbx
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/zombies/animations/zombie_die.fbx
+      projectPath: Assets/zombies/animations/zombie_die.fbx
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/zombies/animations/zombie_die.fbx.meta
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/zombies/animations/zombie_die.fbx.meta
+      projectPath: Assets/zombies/animations/zombie_die.fbx.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/zombies/animations/zombie_dizzy.fbx
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/zombies/animations/zombie_dizzy.fbx
+      projectPath: Assets/zombies/animations/zombie_dizzy.fbx
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/zombies/animations/zombie_dizzy.fbx.meta
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/zombies/animations/zombie_dizzy.fbx.meta
+      projectPath: Assets/zombies/animations/zombie_dizzy.fbx.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/zombies/animations/zombie_fall.fbx
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/zombies/animations/zombie_fall.fbx
+      projectPath: Assets/zombies/animations/zombie_fall.fbx
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/zombies/animations/zombie_fall.fbx.meta
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/zombies/animations/zombie_fall.fbx.meta
+      projectPath: Assets/zombies/animations/zombie_fall.fbx.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/zombies/animations/zombie_fly_up.fbx
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/zombies/animations/zombie_fly_up.fbx
+      projectPath: Assets/zombies/animations/zombie_fly_up.fbx
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/zombies/animations/zombie_fly_up.fbx.meta
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/zombies/animations/zombie_fly_up.fbx.meta
+      projectPath: Assets/zombies/animations/zombie_fly_up.fbx.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/zombies/animations/zombie_get_hit_from_front.fbx
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/zombies/animations/zombie_get_hit_from_front.fbx
+      projectPath: Assets/zombies/animations/zombie_get_hit_from_front.fbx
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/zombies/animations/zombie_get_hit_from_front.fbx.meta
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/zombies/animations/zombie_get_hit_from_front.fbx.meta
+      projectPath: Assets/zombies/animations/zombie_get_hit_from_front.fbx.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/zombies/animations/zombie_get_hit_from_left.fbx
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/zombies/animations/zombie_get_hit_from_left.fbx
+      projectPath: Assets/zombies/animations/zombie_get_hit_from_left.fbx
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/zombies/animations/zombie_get_hit_from_left.fbx.meta
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/zombies/animations/zombie_get_hit_from_left.fbx.meta
+      projectPath: Assets/zombies/animations/zombie_get_hit_from_left.fbx.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/zombies/animations/zombie_get_hit_from_right.fbx
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/zombies/animations/zombie_get_hit_from_right.fbx
+      projectPath: Assets/zombies/animations/zombie_get_hit_from_right.fbx
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/zombies/animations/zombie_get_hit_from_right.fbx.meta
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/zombies/animations/zombie_get_hit_from_right.fbx.meta
+      projectPath: Assets/zombies/animations/zombie_get_hit_from_right.fbx.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/zombies/animations/zombie_getup.fbx
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/zombies/animations/zombie_getup.fbx
+      projectPath: Assets/zombies/animations/zombie_getup.fbx
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/zombies/animations/zombie_getup.fbx.meta
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/zombies/animations/zombie_getup.fbx.meta
+      projectPath: Assets/zombies/animations/zombie_getup.fbx.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/zombies/animations/zombie_idle_1.fbx
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/zombies/animations/zombie_idle_1.fbx
+      projectPath: Assets/zombies/animations/zombie_idle_1.fbx
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/zombies/animations/zombie_idle_1.fbx.meta
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/zombies/animations/zombie_idle_1.fbx.meta
+      projectPath: Assets/zombies/animations/zombie_idle_1.fbx.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/zombies/animations/zombie_idle_2.fbx
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/zombies/animations/zombie_idle_2.fbx
+      projectPath: Assets/zombies/animations/zombie_idle_2.fbx
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/zombies/animations/zombie_idle_2.fbx.meta
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/zombies/animations/zombie_idle_2.fbx.meta
+      projectPath: Assets/zombies/animations/zombie_idle_2.fbx.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/zombies/animations/zombie_jump.fbx
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/zombies/animations/zombie_jump.fbx
+      projectPath: Assets/zombies/animations/zombie_jump.fbx
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/zombies/animations/zombie_jump.fbx.meta
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/zombies/animations/zombie_jump.fbx.meta
+      projectPath: Assets/zombies/animations/zombie_jump.fbx.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/zombies/animations/zombie_land.fbx
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/zombies/animations/zombie_land.fbx
+      projectPath: Assets/zombies/animations/zombie_land.fbx
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/zombies/animations/zombie_land.fbx.meta
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/zombies/animations/zombie_land.fbx.meta
+      projectPath: Assets/zombies/animations/zombie_land.fbx.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/zombies/animations/zombie_laugh.fbx
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/zombies/animations/zombie_laugh.fbx
+      projectPath: Assets/zombies/animations/zombie_laugh.fbx
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/zombies/animations/zombie_laugh.fbx.meta
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/zombies/animations/zombie_laugh.fbx.meta
+      projectPath: Assets/zombies/animations/zombie_laugh.fbx.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/zombies/animations/zombie_panic.fbx
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/zombies/animations/zombie_panic.fbx
+      projectPath: Assets/zombies/animations/zombie_panic.fbx
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/zombies/animations/zombie_panic.fbx.meta
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/zombies/animations/zombie_panic.fbx.meta
+      projectPath: Assets/zombies/animations/zombie_panic.fbx.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/zombies/animations/zombie_spring.fbx
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/zombies/animations/zombie_spring.fbx
+      projectPath: Assets/zombies/animations/zombie_spring.fbx
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/zombies/animations/zombie_spring.fbx.meta
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/zombies/animations/zombie_spring.fbx.meta
+      projectPath: Assets/zombies/animations/zombie_spring.fbx.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/zombies/animations/zombie_stirr.fbx
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/zombies/animations/zombie_stirr.fbx
+      projectPath: Assets/zombies/animations/zombie_stirr.fbx
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/zombies/animations/zombie_stirr.fbx.meta
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/zombies/animations/zombie_stirr.fbx.meta
+      projectPath: Assets/zombies/animations/zombie_stirr.fbx.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/zombies/animations/zombie_talk.fbx
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/zombies/animations/zombie_talk.fbx
+      projectPath: Assets/zombies/animations/zombie_talk.fbx
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/zombies/animations/zombie_talk.fbx.meta
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/zombies/animations/zombie_talk.fbx.meta
+      projectPath: Assets/zombies/animations/zombie_talk.fbx.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/zombies/animations/zombie_trans_to_fall.fbx
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/zombies/animations/zombie_trans_to_fall.fbx
+      projectPath: Assets/zombies/animations/zombie_trans_to_fall.fbx
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/zombies/animations/zombie_trans_to_fall.fbx.meta
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/zombies/animations/zombie_trans_to_fall.fbx.meta
+      projectPath: Assets/zombies/animations/zombie_trans_to_fall.fbx.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/zombies/animations/zombie_walk.fbx
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/zombies/animations/zombie_walk.fbx
+      projectPath: Assets/zombies/animations/zombie_walk.fbx
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/zombies/animations/zombie_walk.fbx.meta
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/zombies/animations/zombie_walk.fbx.meta
+      projectPath: Assets/zombies/animations/zombie_walk.fbx.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/zombies/models.meta
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/zombies/models.meta
+      projectPath: Assets/zombies/models.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/zombies/models/Materials.meta
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/zombies/models/Materials.meta
+      projectPath: Assets/zombies/models/Materials.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/zombies/models/Materials/lambert6SG.mat
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/zombies/models/Materials/lambert6SG.mat
+      projectPath: Assets/zombies/models/Materials/lambert6SG.mat
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/zombies/models/Materials/lambert6SG.mat.meta
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/zombies/models/Materials/lambert6SG.mat.meta
+      projectPath: Assets/zombies/models/Materials/lambert6SG.mat.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/zombies/models/Materials/micro_zombie_brian_col_green.mat
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/zombies/models/Materials/micro_zombie_brian_col_green.mat
+      projectPath: Assets/zombies/models/Materials/micro_zombie_brian_col_green.mat
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/zombies/models/Materials/micro_zombie_brian_col_green.mat.meta
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/zombies/models/Materials/micro_zombie_brian_col_green.mat.meta
+      projectPath: Assets/zombies/models/Materials/micro_zombie_brian_col_green.mat.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/zombies/models/micro_zombie_brian.fbx
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/zombies/models/micro_zombie_brian.fbx
+      projectPath: Assets/zombies/models/micro_zombie_brian.fbx
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/zombies/models/micro_zombie_brian.fbx.meta
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/zombies/models/micro_zombie_brian.fbx.meta
+      projectPath: Assets/zombies/models/micro_zombie_brian.fbx.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/zombies/models/micro_zombie_brian.mb
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/zombies/models/micro_zombie_brian.mb
+      projectPath: Assets/zombies/models/micro_zombie_brian.mb
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/zombies/models/micro_zombie_brian.mb.meta
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/zombies/models/micro_zombie_brian.mb.meta
+      projectPath: Assets/zombies/models/micro_zombie_brian.mb.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/zombies/models/micro_zombie_brian.mtl
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/zombies/models/micro_zombie_brian.mtl
+      projectPath: Assets/zombies/models/micro_zombie_brian.mtl
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/zombies/models/micro_zombie_brian.mtl.meta
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/zombies/models/micro_zombie_brian.mtl.meta
+      projectPath: Assets/zombies/models/micro_zombie_brian.mtl.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/zombies/models/micro_zombie_brian.obj
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/zombies/models/micro_zombie_brian.obj
+      projectPath: Assets/zombies/models/micro_zombie_brian.obj
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/zombies/models/micro_zombie_brian.obj.meta
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/zombies/models/micro_zombie_brian.obj.meta
+      projectPath: Assets/zombies/models/micro_zombie_brian.obj.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/zombies/models/micro_zombie_brian_dead.fbx
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/zombies/models/micro_zombie_brian_dead.fbx
+      projectPath: Assets/zombies/models/micro_zombie_brian_dead.fbx
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/zombies/models/micro_zombie_brian_dead.fbx.meta
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/zombies/models/micro_zombie_brian_dead.fbx.meta
+      projectPath: Assets/zombies/models/micro_zombie_brian_dead.fbx.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/zombies/models/micro_zombie_brian_dead.mtl
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/zombies/models/micro_zombie_brian_dead.mtl
+      projectPath: Assets/zombies/models/micro_zombie_brian_dead.mtl
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/zombies/models/micro_zombie_brian_dead.mtl.meta
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/zombies/models/micro_zombie_brian_dead.mtl.meta
+      projectPath: Assets/zombies/models/micro_zombie_brian_dead.mtl.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/zombies/models/micro_zombie_brian_dead.obj
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/zombies/models/micro_zombie_brian_dead.obj
+      projectPath: Assets/zombies/models/micro_zombie_brian_dead.obj
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/zombies/models/micro_zombie_brian_dead.obj.meta
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/zombies/models/micro_zombie_brian_dead.obj.meta
+      projectPath: Assets/zombies/models/micro_zombie_brian_dead.obj.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/zombies/models/micro_zombie_brian_happy.fbx
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/zombies/models/micro_zombie_brian_happy.fbx
+      projectPath: Assets/zombies/models/micro_zombie_brian_happy.fbx
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/zombies/models/micro_zombie_brian_happy.fbx.meta
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/zombies/models/micro_zombie_brian_happy.fbx.meta
+      projectPath: Assets/zombies/models/micro_zombie_brian_happy.fbx.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/zombies/models/micro_zombie_brian_happy.mtl
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/zombies/models/micro_zombie_brian_happy.mtl
+      projectPath: Assets/zombies/models/micro_zombie_brian_happy.mtl
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/zombies/models/micro_zombie_brian_happy.mtl.meta
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/zombies/models/micro_zombie_brian_happy.mtl.meta
+      projectPath: Assets/zombies/models/micro_zombie_brian_happy.mtl.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/zombies/models/micro_zombie_brian_happy.obj
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/zombies/models/micro_zombie_brian_happy.obj
+      projectPath: Assets/zombies/models/micro_zombie_brian_happy.obj
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/zombies/models/micro_zombie_brian_happy.obj.meta
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/zombies/models/micro_zombie_brian_happy.obj.meta
+      projectPath: Assets/zombies/models/micro_zombie_brian_happy.obj.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/zombies/models/micro_zombie_brian_sleeping.fbx
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/zombies/models/micro_zombie_brian_sleeping.fbx
+      projectPath: Assets/zombies/models/micro_zombie_brian_sleeping.fbx
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/zombies/models/micro_zombie_brian_sleeping.fbx.meta
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/zombies/models/micro_zombie_brian_sleeping.fbx.meta
+      projectPath: Assets/zombies/models/micro_zombie_brian_sleeping.fbx.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/zombies/models/micro_zombie_brian_sleeping.mtl
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/zombies/models/micro_zombie_brian_sleeping.mtl
+      projectPath: Assets/zombies/models/micro_zombie_brian_sleeping.mtl
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/zombies/models/micro_zombie_brian_sleeping.mtl.meta
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/zombies/models/micro_zombie_brian_sleeping.mtl.meta
+      projectPath: Assets/zombies/models/micro_zombie_brian_sleeping.mtl.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/zombies/models/micro_zombie_brian_sleeping.obj
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/zombies/models/micro_zombie_brian_sleeping.obj
+      projectPath: Assets/zombies/models/micro_zombie_brian_sleeping.obj
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/zombies/models/micro_zombie_brian_sleeping.obj.meta
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/zombies/models/micro_zombie_brian_sleeping.obj.meta
+      projectPath: Assets/zombies/models/micro_zombie_brian_sleeping.obj.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/zombies/textures.meta
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/zombies/textures.meta
+      projectPath: Assets/zombies/textures.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/zombies/textures/Thumbs.db
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/zombies/textures/Thumbs.db
+      projectPath: Assets/zombies/textures/Thumbs.db
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/zombies/textures/Thumbs.db.meta
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/zombies/textures/Thumbs.db.meta
+      projectPath: Assets/zombies/textures/Thumbs.db.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/zombies/textures/micro_zombie_brian_col_blue.tga
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/zombies/textures/micro_zombie_brian_col_blue.tga
+      projectPath: Assets/zombies/textures/micro_zombie_brian_col_blue.tga
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/zombies/textures/micro_zombie_brian_col_blue.tga.meta
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/zombies/textures/micro_zombie_brian_col_blue.tga.meta
+      projectPath: Assets/zombies/textures/micro_zombie_brian_col_blue.tga.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/zombies/textures/micro_zombie_brian_col_green.tga
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/zombies/textures/micro_zombie_brian_col_green.tga
+      projectPath: Assets/zombies/textures/micro_zombie_brian_col_green.tga
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/zombies/textures/micro_zombie_brian_col_green.tga.meta
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/zombies/textures/micro_zombie_brian_col_green.tga.meta
+      projectPath: Assets/zombies/textures/micro_zombie_brian_col_green.tga.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/zombies/textures/micro_zombie_brian_col_red.tga
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/zombies/textures/micro_zombie_brian_col_red.tga
+      projectPath: Assets/zombies/textures/micro_zombie_brian_col_red.tga
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/zombies/textures/micro_zombie_brian_col_red.tga.meta
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/zombies/textures/micro_zombie_brian_col_red.tga.meta
+      projectPath: Assets/zombies/textures/micro_zombie_brian_col_red.tga.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/zombies/textures/micro_zombie_brian_col_yellow.tga
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/zombies/textures/micro_zombie_brian_col_yellow.tga
+      projectPath: Assets/zombies/textures/micro_zombie_brian_col_yellow.tga
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/zombies/textures/micro_zombie_brian_col_yellow.tga.meta
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/zombies/textures/micro_zombie_brian_col_yellow.tga.meta
+      projectPath: Assets/zombies/textures/micro_zombie_brian_col_yellow.tga.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Packages/manifest.json
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Packages/manifest.json
+      projectPath: Packages/manifest.json
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: ProjectSettings/AudioManager.asset
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/ProjectSettings/AudioManager.asset
+      projectPath: ProjectSettings/AudioManager.asset
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: ProjectSettings/ClusterInputManager.asset
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/ProjectSettings/ClusterInputManager.asset
+      projectPath: ProjectSettings/ClusterInputManager.asset
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: ProjectSettings/DynamicsManager.asset
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/ProjectSettings/DynamicsManager.asset
+      projectPath: ProjectSettings/DynamicsManager.asset
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: ProjectSettings/EditorBuildSettings.asset
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/ProjectSettings/EditorBuildSettings.asset
+      projectPath: ProjectSettings/EditorBuildSettings.asset
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: ProjectSettings/EditorSettings.asset
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/ProjectSettings/EditorSettings.asset
+      projectPath: ProjectSettings/EditorSettings.asset
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: ProjectSettings/GraphicsSettings.asset
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/ProjectSettings/GraphicsSettings.asset
+      projectPath: ProjectSettings/GraphicsSettings.asset
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: ProjectSettings/InputManager.asset
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/ProjectSettings/InputManager.asset
+      projectPath: ProjectSettings/InputManager.asset
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: ProjectSettings/NavMeshAreas.asset
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/ProjectSettings/NavMeshAreas.asset
+      projectPath: ProjectSettings/NavMeshAreas.asset
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: ProjectSettings/NetworkManager.asset
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/ProjectSettings/NetworkManager.asset
+      projectPath: ProjectSettings/NetworkManager.asset
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: ProjectSettings/Physics2DSettings.asset
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/ProjectSettings/Physics2DSettings.asset
+      projectPath: ProjectSettings/Physics2DSettings.asset
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: ProjectSettings/PresetManager.asset
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/ProjectSettings/PresetManager.asset
+      projectPath: ProjectSettings/PresetManager.asset
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: ProjectSettings/ProjectSettings.asset
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/ProjectSettings/ProjectSettings.asset
+      projectPath: ProjectSettings/ProjectSettings.asset
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: ProjectSettings/ProjectVersion.txt
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/ProjectSettings/ProjectVersion.txt
+      projectPath: ProjectSettings/ProjectVersion.txt
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: ProjectSettings/QualitySettings.asset
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/ProjectSettings/QualitySettings.asset
+      projectPath: ProjectSettings/QualitySettings.asset
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: ProjectSettings/TagManager.asset
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/ProjectSettings/TagManager.asset
+      projectPath: ProjectSettings/TagManager.asset
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: ProjectSettings/TimeManager.asset
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/ProjectSettings/TimeManager.asset
+      projectPath: ProjectSettings/TimeManager.asset
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: ProjectSettings/UnityConnectSettings.asset
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/ProjectSettings/UnityConnectSettings.asset
+      projectPath: ProjectSettings/UnityConnectSettings.asset
+      originalPath: 
+      status: 4
+      staged: 0
+  - commitID: f0875505bbdc343020b592b7560e623860d03f0d
+    mergeA: 
+    mergeB: 
+    authorName: cponeill
+    authorEmail: caseyoneill78@hotmail.com
+    commitEmail: caseyoneill78@hotmail.com
+    commitName: cponeill
+    summary: Initial commit
+    description: Initial commit
+    timeString: 2018-11-28T14:35:11.000-08:00
+    commitTimeString: 2018-11-28T14:35:11.000-08:00
+    changes:
+    - path: .gitattributes
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/.gitattributes
+      projectPath: .gitattributes
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: .gitignore
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/.gitignore
+      projectPath: .gitignore
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/.gitignore
+      fullPath: /Users/caseyoneill/Roll-A-Zombie-Demo-2018/Assets/.gitignore
+      projectPath: Assets/.gitignore
+      originalPath: 
+      status: 4
+      staged: 0
